@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        display: flow-root;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.7.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div id="c5ec4a2d-81b1-4ecd-9bc0-5420b5893482" data-root-id="p1524" style="display: contents;"></div>
+  
+    <script type="application/json" id="e941c9af-8ff0-4d25-bed1-5296f54bb297">
+      {"a4e269ea-f6e5-42eb-9562-6e163aeafa34":{"version":"3.7.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p1524","attributes":{"width":400,"height":350,"x_range":{"type":"object","name":"DataRange1d","id":"p1525"},"y_range":{"type":"object","name":"DataRange1d","id":"p1526"},"x_scale":{"type":"object","name":"LinearScale","id":"p1534"},"y_scale":{"type":"object","name":"LinearScale","id":"p1535"},"title":{"type":"object","name":"Title","id":"p1527","attributes":{"text":"Distribution of person_income"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1565","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1521","attributes":{"selected":{"type":"object","name":"Selection","id":"p1522","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1523"},"data":{"type":"map","entries":[["left",{"type":"ndarray","array":{"type":"bytes","data":"AAAAAABosEBWVVVVFXTwQKuqqqqq4f9AAAAAAKCnB0Grqqqqal4PQauqqqqaihNBAAAAAABmF0FWVVVVZUEbQauqqqrKHB9BAAAAABh8IUGrqqqqymkjQVZVVVV9VyVBAAAAADBFJ0Grqqqq4jIpQVZVVVWVICtBAAAAAEgOLUGrqqqq+vsuQauqqqrWdDBBAAAAALBrMUFWVVVViWIyQauqqqpiWTNBAAAAADxQNEFWVVVVFUc1QauqqqruPTZBAAAAAMg0N0FWVVVVoSs4Qauqqqp6IjlBAAAAAFQZOkFWVVVVLRA7QauqqqoGBzxB"},"shape":[30],"dtype":"float64","order":"little"}],["right",{"type":"ndarray","array":{"type":"bytes","data":"VlVVVRV08ECrqqqqquH/QAAAAACgpwdBq6qqqmpeD0GrqqqqmooTQQAAAAAAZhdBVlVVVWVBG0GrqqqqyhwfQQAAAAAYfCFBq6qqqsppI0FWVVVVfVclQQAAAAAwRSdBq6qqquIyKUFWVVVVlSArQQAAAABIDi1Bq6qqqvr7LkGrqqqq1nQwQQAAAACwazFBVlVVVYliMkGrqqqqYlkzQQAAAAA8UDRBVlVVVRVHNUGrqqqq7j02QQAAAADINDdBVlVVVaErOEGrqqqqeiI5QQAAAABUGTpBVlVVVS0QO0GrqqqqBgc8QQAAAADg/TxB"},"shape":[30],"dtype":"float64","order":"little"}],["count",{"type":"ndarray","array":{"type":"bytes","data":"RJQAAOZIAABvBgAACQEAACoAAAAVAAAABwAAAAsAAAAFAAAABQAAAAAAAAAEAAAAAwAAAAEAAAAIAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAACAAAA"},"shape":[30],"dtype":"int32","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p1566","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1567"}}},"glyph":{"type":"object","name":"Quad","id":"p1562","attributes":{"left":{"type":"field","field":"left"},"right":{"type":"field","field":"right"},"bottom":{"type":"value","value":0},"top":{"type":"field","field":"count"},"line_color":{"type":"value","value":"white"},"line_alpha":{"type":"value","value":0.5},"fill_color":{"type":"value","value":"navy"},"fill_alpha":{"type":"value","value":0.5},"hatch_alpha":{"type":"value","value":0.5}}},"nonselection_glyph":{"type":"object","name":"Quad","id":"p1563","attributes":{"left":{"type":"field","field":"left"},"right":{"type":"field","field":"right"},"bottom":{"type":"value","value":0},"top":{"type":"field","field":"count"},"line_color":{"type":"value","value":"white"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"navy"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Quad","id":"p1564","attributes":{"left":{"type":"field","field":"left"},"right":{"type":"field","field":"right"},"bottom":{"type":"value","value":0},"top":{"type":"field","field":"count"},"line_color":{"type":"value","value":"white"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"navy"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1533","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p1546"},{"type":"object","name":"WheelZoomTool","id":"p1547","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p1548","attributes":{"dimensions":"both","overlay":{"type":"object","name":"BoxAnnotation","id":"p1549","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p1555","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p1554","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"SaveTool","id":"p1556"},{"type":"object","name":"ResetTool","id":"p1557"},{"type":"object","name":"HelpTool","id":"p1558"},{"type":"object","name":"HoverTool","id":"p1569","attributes":{"renderers":"auto","tooltips":[["person_income range","@left{0.00} to @right{0.00}"],["Count","@count"]]}}]}},"left":[{"type":"object","name":"LinearAxis","id":"p1541","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1542","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1543"},"axis_label":"Frequency","major_label_policy":{"type":"object","name":"AllLabels","id":"p1544"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p1536","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1537","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"NumeralTickFormatter","id":"p1568"},"axis_label":"person_income","major_label_policy":{"type":"object","name":"AllLabels","id":"p1539"}}}],"center":[{"type":"object","name":"Grid","id":"p1540","attributes":{"axis":{"id":"p1536"}}},{"type":"object","name":"Grid","id":"p1545","attributes":{"dimension":1,"axis":{"id":"p1541"}}}],"background_fill_color":"#fafafa"}}]}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('e941c9af-8ff0-4d25-bed1-5296f54bb297').textContent;
+              const render_items = [{"docid":"a4e269ea-f6e5-42eb-9562-6e163aeafa34","roots":{"p1524":"c5ec4a2d-81b1-4ecd-9bc0-5420b5893482"},"root_ids":["p1524"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>
